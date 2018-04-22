@@ -1,0 +1,8 @@
+{
+    "name"              :"HelloWorld",
+    "description"       :"My first plugin",
+    "namespace"         :"HelloWorld",
+    "author"            :"Cemil Cömert",
+    "type"              :"template",
+    "serviceProvider"   :"HelloWorld\\Providers\\HelloWorldServiceProvider"
+}
