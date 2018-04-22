@@ -1,7 +1,7 @@
 {
-    "name"              :"HelloWorld",
+    "name"              :"apiMarketPlaces",
     "description"       :"My first plugin",
-    "namespace"         :"HelloWorld",
+    "namespace"         :"apiMarketPlaces",
     "author"            :"Cemil Cömert",
     "type"              :"template",
     "serviceProvider"   :"apiMarketPlaces\\Providers\\HelloWorldServiceProvider"
