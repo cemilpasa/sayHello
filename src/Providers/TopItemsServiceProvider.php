@@ -12,6 +12,6 @@ class TopItemsServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->getApplication()->register(TopItemsServiceProvider::class);
+        $this->getApplication()->register(TopItemsRouteServiceProvider::class);
     }
 }
