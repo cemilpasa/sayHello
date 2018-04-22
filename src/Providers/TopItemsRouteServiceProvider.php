@@ -6,10 +6,10 @@ namespace apiMarketPlaces\Providers;
 use Plenty\Plugin\RouteServiceProvider;
 use Plenty\Plugin\Routing\Router;
 
-class HelloWorldRouteServiceProvider extends RouteServiceProvider
+class TopItemsRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('hello','apiMarketPlaces\Controllers\ContentController@sayHello');
+        $router->get('topitems','apiMarketPlaces\Controllers\ContentController@showTopItems');
     }
 }

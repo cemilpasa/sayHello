@@ -1,8 +1,8 @@
 {
     "name"              :"apiMarketPlaces",
-    "description"       :"My first plugin",
+    "description"       :"Plugin to render a list of top items",
     "namespace"         :"apiMarketPlaces",
     "author"            :"Cemil Cömert",
     "type"              :"template",
-    "serviceProvider"   :"apiMarketPlaces\\Providers\\HelloWorldServiceProvider"
+    "serviceProvider"   :"apiMarketPlaces\\Providers\\TopItemsServiceProvider"
 }
