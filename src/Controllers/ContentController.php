@@ -51,6 +51,6 @@ class ContentController extends Controller
             'currentItems' => $items
         );
 
-        return $twig->render('apiMarketPlaces::content.topitems', $templateData);
+        return $twig->render('apiMarketPlaces::content.TopItems', $templateData);
     }
 }
