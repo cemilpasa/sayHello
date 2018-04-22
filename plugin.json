@@ -4,5 +4,5 @@
     "namespace"         :"HelloWorld",
     "author"            :"Cemil Cömert",
     "type"              :"template",
-    "serviceProvider"   :"HelloWorld\\Providers\\HelloWorldServiceProvider"
+    "serviceProvider"   :"apiMarketPlaces\\Providers\\HelloWorldServiceProvider"
 }
