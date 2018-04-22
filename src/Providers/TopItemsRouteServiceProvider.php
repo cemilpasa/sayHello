@@ -1,6 +1,6 @@
 <?php
 
-namespace apiMarketPlaces\Providers;
+namespace TopItems\Providers;
 
 
 use Plenty\Plugin\RouteServiceProvider;
@@ -10,6 +10,6 @@ class TopItemsRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('topitems', 'apiMarketPlaces\Controllers\ContentController@showTopItems');
+        $router->get('topitems', 'TopItems\Controllers\ContentController@showTopItems');
     }
 }

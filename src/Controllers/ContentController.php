@@ -1,6 +1,6 @@
 <?php
 
-namespace apiMarketPlaces\Controllers;
+namespace TopItems\Controllers;
 
 
 use Plenty\Plugin\Controller;
@@ -51,6 +51,6 @@ class ContentController extends Controller
             'currentItems' => $items
         );
 
-        return $twig->render('apiMarketPlaces::content.TopItems', $templateData);
+        return $twig->render('TopItems::content.TopItems', $templateData);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace apiMarketPlaces\Providers;
+namespace TopItems\Providers;
 
 
 use Plenty\Plugin\ServiceProvider;
