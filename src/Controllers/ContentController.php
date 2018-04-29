@@ -30,10 +30,6 @@ class ContentController extends Controller
                 'price',
                 'priceId'
             ],
-            'itemText' => [
-                  'name1',
-                  'shortDescription'
-            ],
             'variationImageList' => [
                 'path',
                 'cleanImageName'
