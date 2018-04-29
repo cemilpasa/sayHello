@@ -17,9 +17,9 @@ class ContentController extends Controller
                 'description'
             ],
             'variationBase' => [
-                'id',
-                'itemId',
-                'variationName'
+                'id', //Artikel-ID
+                'itemId', //Varianten-ID
+                'variationName' //Variantennummer
             ],
             'variationRetailPrice' => [
                 'currency',
