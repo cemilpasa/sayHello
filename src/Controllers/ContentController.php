@@ -14,13 +14,21 @@ class ContentController extends Controller
         $itemColumns = [
             'itemDescription' => [
                 'name1',
-                'description'
+                'name2',
+                'name3',
+                'description',
+                'shortDescription'
             ],
             'variationBase' => [
-                'id'
+                'id',
+                'availability',
+
             ],
             'variationRetailPrice' => [
                 'price'
+            ],
+            'variationMarketStatus' => [
+                  'sku'
             ],
             'variationImageList' => [
                 'path',
