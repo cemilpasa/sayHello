@@ -20,11 +20,7 @@ class ContentController extends Controller
                 'description',
                 'shortDescription'
             ],
-            'item' => [
-              'id',
-              'condition',
-              'rakutenCategoryId'
-            ],
+
             'variationBase' => [
                 'id',
                 'availability',
