@@ -17,7 +17,9 @@ class ContentController extends Controller
                 'description'
             ],
             'variationBase' => [
-                'id'
+                'id',
+                'itemId',
+                'variationName'
             ],
             'variationRetailPrice' => [
                 'currency',
@@ -29,14 +31,11 @@ class ContentController extends Controller
                 'cleanImageName'
             ]
         ];
-
-/**
         $itemFilter = [
             'itemBase.isStoreSpecial' => [
                 'shopAction' => [3]
             ]
         ];
-*/
         $itemParams = [
             'language' => 'de-de'
         ];

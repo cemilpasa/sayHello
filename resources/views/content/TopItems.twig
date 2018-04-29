@@ -10,6 +10,8 @@
                     <div class="card-block">
                         <h4 class="card-title">Id name1:{{ item.itemDescription.name1 }}</h4>
                         <h8 class="card-subtitle">ID: {{ item.variationBase.id }}</h8>
+                        <h8 class="card-subtitle">ID: {{ item.variationBase.itemId }}</h8>
+                        <h8 class="card-subtitle">ID: {{ item.variationBase.variationName }}</h8>
                     </div>
                     {% set image = item.variationImageList | first %}
                     <img class="col-lg-12" src="{{ image.path }}" alt="{{ image.cleanImageName }}">
