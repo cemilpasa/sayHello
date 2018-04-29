@@ -20,6 +20,11 @@ class ContentController extends Controller
                 'description',
                 'shortDescription'
             ],
+            'item' => [
+              'id',
+              'condition',
+              'rakutenCategoryId'
+            ],
             'variationBase' => [
                 'id',
                 'availability',
@@ -30,9 +35,9 @@ class ContentController extends Controller
                 'price',
                 'priceId'
             ],
-            'variationMarketStatus' => [
-                  'active',
-                  'marketId'
+            'itemText' => [
+                  'name1',
+                  'shortDescription'
             ],
             'variationImageList' => [
                 'path',

@@ -8,9 +8,11 @@
             {% for item in currentItems %}
                 <li class="card" style="width: 280px">
                     <div class="card-block">
-                        <h4 class="card-title">{{ item.itemDescription.name1 }}</h4>
-                        <h4 class="card-title">{{ item.itemDescription.name2 }}</h4>
-                        <h4 class="card-title">{{ item.itemDescription.name3 }}</h4>
+                        <h4 class="card-title">it Name1: {{ item.itemText.name1 }}</h4>
+                        <h4 class="card-title">ShortDescription: {{ item.itemText.shortDescription }}</h4>
+                        <h4 class="card-title">id name1: {{ item.itemDescription.name1 }}</h4>
+                        <h4 class="card-title">id name2: {{ item.itemDescription.name2 }}</h4>
+                        <h4 class="card-title">id name3: {{ item.itemDescription.name3 }}</h4>
                         <h8 class="card-subtitle text-muted">ID: {{ item.variationBase.id }}</h6>
                         <h8 class="card-subtitle text-muted">Currency: {{ item.variationBase.currency }}</h6>
                         <h8 class="card-subtitle text-muted">Price-ID: {{ item.variationBase.priceId }}</h6>
@@ -21,7 +23,6 @@
                     <img class="col-lg-12" src="{{ image.path }}" alt="{{ image.cleanImageName }}">
                     <div class="card-block">
                         <p class="card-text">{{ item.itemDescription.description }}</p>
-                        <p class="card-text">{{ item.itemDescription.shortDescription }}</p>
                     </div>
                     <div class="card-footer bg-primary">
                         <h4 style="text-align: center">Price: {{ item.variationRetailPrice.price }} €</h4>
