@@ -30,12 +30,13 @@ class ContentController extends Controller
             ]
         ];
 
+/**
         $itemFilter = [
             'itemBase.isStoreSpecial' => [
-                'shopAction' => [2]
+                'shopAction' => [3]
             ]
         ];
-
+*/
         $itemParams = [
             'language' => 'de-de'
         ];
