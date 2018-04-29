@@ -20,7 +20,6 @@ class ContentController extends Controller
                 'description',
                 'shortDescription'
             ],
-
             'variationBase' => [
                 'id',
                 'availability',
@@ -30,10 +29,6 @@ class ContentController extends Controller
                 'currency',
                 'price',
                 'priceId'
-            ],
-            'itemText' => [
-                  'name1',
-                  'shortDescription'
             ],
             'variationImageList' => [
                 'path',
