@@ -22,7 +22,7 @@ class ContentController extends Controller
             'variationBase' => [
                 'id',
                 'availability',
-
+                'itemId'
             ],
             'variationRetailPrice' => [
                 'price'
