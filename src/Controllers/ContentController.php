@@ -32,7 +32,7 @@ class ContentController extends Controller
 
         $itemFilter = [
             'itemBase.isStoreSpecial' => [
-                'shopAction' => [1]
+                'shopAction' => [2]
             ]
         ];
 
