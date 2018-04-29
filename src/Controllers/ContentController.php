@@ -21,7 +21,7 @@ class ContentController extends Controller
                 'shortDescription'
             ],
             'variationBase' => [
-                'id',            
+                'id',
             ],
             'variationRetailPrice' => [
                 'currency',
@@ -36,7 +36,7 @@ class ContentController extends Controller
 
         $itemFilter = [
             'itemBase.isStoreSpecial' => [
-                'shopAction' => [3]
+                'shopAction' => [1]
             ]
         ];
 
